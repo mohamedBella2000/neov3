@@ -25,7 +25,7 @@ exports.run = {
                   let json = await Api.ig(Func.igFixed(link))
                   if (!json.status) return client.reply(m.chat, Func.jsonFormat(json), m)
                   json.data.map(async v => {
-                     client.sendFile(m.chat, v.url, '', `🍟 *Fetching* : ${((new Date - old) * 1)} ms`, m)
+                     client.sendFile(m.chat, v.url, '', `🍟 *تسنى واحد شوية أبرو ! * : ${((new Date - old) * 1)} ms`, m)
                      await Func.delay(1500)
                   })
                })
