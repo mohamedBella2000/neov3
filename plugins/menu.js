@@ -5,15 +5,15 @@ exports.run = {
       isPrefix
    }) => {
       let rows = [{
-         title: 'ADVANCE',
+         title: 'أوامر متقدمة ',
          rowId: `${isPrefix}menutype 1`,
          description: ``
       }, {
-         title: 'GROUP',
+         title: 'أوامر خاصة بالمجموعة',
          rowId: `${isPrefix}menutype 2`,
          description: ``
       }, {
-         title: 'OWNER',
+         title: 'أموامر الادمين',
          rowId: `${isPrefix}menutype 3`,
          description: ``
       }]
