@@ -17,9 +17,9 @@ exports.run = {
          rowId: `${isPrefix}menutype 3`,
          description: ``
       }]
-      await client.sendList(m.chat, '', `An autonomous program on the internet or another network that can interact with systems or users.`, '', 'Tap!', [{
+      await client.sendList(m.chat, '', `HELLO ! had lbot qayda tatwir ☺️ | @wox_bella | by neo-xr ♥️`, '', 'clicker hna 👆!', [{
          rows
       }], m)
    },
    error: false
-}
+} 
