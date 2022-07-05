@@ -3,7 +3,7 @@ module.exports = class NeoxrApi {
    apiKey = null
 
    constructor(apiKey) {
-      this.apiKey = apiKey || 'jntZZE'
+      this.apiKey = apiKey || ''
    }
    
    check = async () => {
