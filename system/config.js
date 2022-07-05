@@ -1,19 +1,19 @@
 // Owner number
-global.owner = '6285221100126'
+global.owner = '212632244668'
 // Maximum upload file size limit (Default : 250MB)
-global.max_upload = 250
+global.max_upload = 450
 // Delay for spamming protection (Default : 3 seconds)
 global.cooldown = 3
 // User Limitation (Default : 10)
-global.limit = 10
+global.limit = 20
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
 global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
-global.blocks = ['91', '92', '212']
+global.blocks = ['212']
 // Put target jid to forward friends story
-global.forwards = '6285221100126@c.us'
+global.forwards = '212632244668@c.us'
 // Get neoxr apikey by registering at https://api.nxr.my.id
 global.Api = new (require('./neoxrApi'))('q7nMK1')
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
